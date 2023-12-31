@@ -1,11 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,300&display=swap");
 :root {
-  --primary-color: rgb(123, 0, 255);
+  --primary-color: rgb(93, 14, 177);
 }
 
 body {
   font-family: "Open Sans", sans-serif;
 }
+
+hr {
+  margin: 2rem 0rem;
+}
+
 .container {
   font-style: italic;
 
@@ -15,6 +20,7 @@ body {
   max-width: 600px;
   margin: auto;
 }
+
 .link {
   text-decoration: none;
   padding: 0.5rem 1rem;
@@ -28,4 +34,12 @@ body {
   color: var(--primary-color);
   border-radius: 0.5rem;
   border: 1px solid var(--primary-color);
+}
+
+.list-non-bullet {
+  list-style: none;
+}
+.list-item-inline {
+  display: inline;
+  padding: 0rem 0.5rem;
 }
