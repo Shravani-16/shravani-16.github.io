@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,300&display=swap");
 :root {
   --primary-color: rgb(93, 14, 177);
+  --off-white: #f3f4f6;
   --dark-gray: #6b7280;
 }
 
@@ -75,4 +76,14 @@ hr {
 .hero .hero-heading {
   padding-top: 1rem;
   color: var(--dark-gray);
+}
+
+.section {
+  padding: 2rem;
+}
+.section h1 {
+  text-align: center;
+}
+.ow {
+  background-color: var(--off-white);
 }
