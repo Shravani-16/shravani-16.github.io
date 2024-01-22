@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,300&display=swap");
 :root {
   --primary-color: rgb(93, 14, 177);
+  --dark-gray: #6b7280;
 }
 
 body {
@@ -61,4 +62,17 @@ hr {
 }
 .navigation .link-active {
   font-weight: bold;
+}
+
+.hero {
+  padding: 2rem;
+}
+.hero .hero-img {
+  max-width: 350px;
+  display: block;
+  margin: auto;
+}
+.hero .hero-heading {
+  padding-top: 1rem;
+  color: var(--dark-gray);
 }
