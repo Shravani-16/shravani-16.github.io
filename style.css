@@ -7,6 +7,7 @@
 
 body {
   font-family: "Open Sans", sans-serif;
+  margin: 0px;
 }
 
 hr {
@@ -50,6 +51,9 @@ hr {
   color: white;
   padding: 1rem;
   border-bottom-left-radius: 1rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 .navigation .nav-brand {
   font-weight: bold;
@@ -74,6 +78,7 @@ hr {
   margin: auto;
 }
 .hero .hero-heading {
+  text-align: center;
   padding-top: 1rem;
   color: var(--dark-gray);
 }
@@ -86,4 +91,23 @@ hr {
 }
 .ow {
   background-color: var(--off-white);
+}
+
+.footer {
+  background-color: var(--primary-color);
+  padding: 2rem 1rem;
+  text-align: center;
+  color: white;
+  border-top-right-radius: 1rem;
+}
+
+.footer .link {
+  color: white;
+}
+.footer .footer-header {
+  font-weight: bold;
+  font-size: large;
+}
+.footer ul {
+  padding-inline-start: 0px;
 }
